@@ -16,11 +16,7 @@ model =load_model('BrainTumor10Epochs.h5')
 print('Model loaded. Check http://127.0.0.1:5000/')
 
 
-def get_className(classNo):
-	if classNo==0:
-		return "No Brain Tumor"
-	elif classNo==1:
-		return "Yes Brain Tumor"
+
 
 
 def getResult(img):
